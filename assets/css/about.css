@@ -1,3 +1,7 @@
+.cabecalho {
+    background: linear-gradient(113deg, rgba(22,10,24,1) 0%, rgba(32,0,1,1) 97%);
+}
+
 .principal {
     display: flex;
     align-content: center;
