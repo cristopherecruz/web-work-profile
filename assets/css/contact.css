@@ -1,0 +1,35 @@
+.cabecalho {
+    background: linear-gradient(113deg, rgba(22,10,24,1) 0%, rgba(32,0,1,1) 97%);
+}
+
+.principal__form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 3em;
+    min-height: 60vh;
+    justify-content: center;
+    align-content: center;
+    row-gap: 0.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.form__input-padrao {
+    padding: 10px 25px;
+    border-radius: 0.5em;
+}
+
+.enviar {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: #599406;
+    transition: 0.75s;
+    border-radius: 0.5em;
+    padding: 10px 25px;
+}
+
+.enviar:active {
+    background: #147826;
+    transition: 0.75s;
+}

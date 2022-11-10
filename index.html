@@ -5,44 +5,34 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cristopher</title>
+        <title>Cristopher | Home</title>
 
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/home.css">
-        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body class="app">
-        <section class="nav-banner">
-            <header class="app__cabecalho">
-                <h1 class="logo"><a href="index.html"><img src="assets/img/home.png" alt="Logo de engrenagem"></a></h1>
-                <nav class="nav">
-                    <ul class="nav-ul">
-                        <li><a href="skills.html">Skills</a></li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Blog</li>
-                    </ul>
-                </nav>
-            </header>
+        <section class="secao-banner">
+            <custom-header></custom-header>
 
             <section class="banner">
                 <img src="assets/img/xicara-white.png" alt="xícara do logo Java">
-                <div class="frase"></div>
+                <div class="banner__frase"></div>
             </section>
         </section>
 
-        <main class="conteudo">
-            <section class="perfil">
-                <img class="avatar" src="assets/img/perfil.jpg" alt="Avatar">
-                <p>I'm a Software Engineer living in Santa Catarina - Brazil who loves technology and obssessed by Design Patterns and Best Practices.</p>
+        <main class="principal">
+            <section class="secao-perfil">
+                <img class="secao-perfil__avatar" src="assets/img/perfil.jpg" alt="Avatar">
+                <p class="secao-perfil__introducao">I'm a Software Engineer living in Santa Catarina - Brazil who loves technology. Obsessed by <em>Design Patterns</em> and <em>Best Practices</em>.</p>
             </section>
         </main>
 
-        <footer class="rodape">
-            <p>&copy; Todos os Direitos Reservados</p>
-        </footer>
+        <custom-footer></custom-footer>
         <script src="/assets/js/home.js"></script>
+        <script src="/assets/js/header.js"></script>
+        <script src="/assets/js/footer.js"></script>
     </body>
 </html>

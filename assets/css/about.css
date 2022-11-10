@@ -1,0 +1,16 @@
+.principal {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-height: 75vh;
+    flex-direction: column;
+}
+
+.principal__apresentacao {
+    color: black;
+    height: 100%;
+    font-weight: bold;
+    text-align: justify;
+    padding: 0em 2em;
+    text-indent: 2em;
+}

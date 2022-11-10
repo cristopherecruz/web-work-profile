@@ -1,0 +1,21 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    row-gap: 1em;
+    width: 100%;
+    min-height: 200px;
+    background-image: url("/assets/img/footer-bg.png");
+    padding-bottom: 2em;
+}
+
+.lista__rodape {
+    display: flex;
+    column-gap: 1em;
+}
+
+.item_social {
+    width: 3em;
+    height: 3em;
+}
