@@ -11,9 +11,9 @@ botaoSubmit.addEventListener("click", function (event) {
     Email.send({
         SecureToken : "974459ee-c235-4b12-863b-d25c14452813",
         To : 'cristopher@cristopher.dev.br',
-        From : `${email.value}`,
+        From : 'cristopher@cristopher.dev.br',
         Subject : "Message from web work profile",
-        Body : `Personal Name: ${personalName.value}, Phone number: ${phoneNumber.value}, Message: ${message.value}`
+        Body : `Personal Name: ${personalName.value}, email: ${email.value}, Phone number: ${phoneNumber.value}, Message: ${message.value}`
     }).then(
         message => alert("e-mail sent successfully!"),
         form.reset()
