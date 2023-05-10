@@ -33,3 +33,11 @@
     background: #147826;
     transition: 0.75s;
 }
+
+@media screen and (min-width: 1440px) {
+
+    .principal {
+        padding: 0em 30em;
+    }
+
+}

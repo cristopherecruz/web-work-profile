@@ -30,3 +30,22 @@
 .item__a--active:active {
     color: gold;
 }
+
+@media screen and (min-width: 1440px) {
+
+    .cabecalho {
+        flex-direction: row;
+        padding: 0em 20em;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .cabecalho__logo {
+        margin: 2em 2em;
+    }
+
+    .cabecalho__nav {
+        width: 40%;
+    }
+
+}
